@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3D02279CA891F151ED19128 /* Pods_ToDo_VIPER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5147E74D199D3FD0547C2DED /* Pods_ToDo_VIPER.framework */; };
+		B4727A8725F80CC9001E8CB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4727A8625F80CC9001E8CB4 /* AppDelegate.swift */; };
+		B4727A8925F80CC9001E8CB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4727A8825F80CC9001E8CB4 /* SceneDelegate.swift */; };
+		B4727A8E25F80CC9001E8CB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4727A8C25F80CC9001E8CB4 /* Main.storyboard */; };
+		B4727A9025F80CCC001E8CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4727A8F25F80CCC001E8CB4 /* Assets.xcassets */; };
+		B4727A9325F80CCC001E8CB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4727A9125F80CCC001E8CB4 /* LaunchScreen.storyboard */; };
+		B4727AA625F81303001E8CB4 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4727AA525F81303001E8CB4 /* Presenter.swift */; };
+		B4727AA925F81318001E8CB4 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4727AA825F81318001E8CB4 /* Interactor.swift */; };
+		B4727AAD25F828D0001E8CB4 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4727AAC25F828D0001E8CB4 /* Entity.swift */; };
+		B4727AB225F8294A001E8CB4 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4727AB125F8294A001E8CB4 /* ToDoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5147E74D199D3FD0547C2DED /* Pods_ToDo_VIPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDo_VIPER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85720AE0D44799313CB78FF1 /* Pods-ToDo-VIPER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDo-VIPER.release.xcconfig"; path = "Target Support Files/Pods-ToDo-VIPER/Pods-ToDo-VIPER.release.xcconfig"; sourceTree = "<group>"; };
+		B4727A8325F80CC9001E8CB4 /* ToDo-VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDo-VIPER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4727A8625F80CC9001E8CB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4727A8825F80CC9001E8CB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B4727A8D25F80CC9001E8CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4727A8F25F80CCC001E8CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4727A9225F80CCC001E8CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4727A9425F80CCC001E8CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4727AA525F81303001E8CB4 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		B4727AA825F81318001E8CB4 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		B4727AAC25F828D0001E8CB4 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		B4727AB125F8294A001E8CB4 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
+		F25BF634A10AE8B604B7D40A /* Pods-ToDo-VIPER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDo-VIPER.debug.xcconfig"; path = "Target Support Files/Pods-ToDo-VIPER/Pods-ToDo-VIPER.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4727A8025F80CC9001E8CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D02279CA891F151ED19128 /* Pods_ToDo_VIPER.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F48B3B69366AB75CD2B7880 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5147E74D199D3FD0547C2DED /* Pods_ToDo_VIPER.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4727A7A25F80CC9001E8CB4 = {
+			isa = PBXGroup;
+			children = (
+				B4727A8525F80CC9001E8CB4 /* ToDo-VIPER */,
+				B4727A8425F80CC9001E8CB4 /* Products */,
+				F19AF6DFBE4B443ABB03E50D /* Pods */,
+				7F48B3B69366AB75CD2B7880 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B4727A8425F80CC9001E8CB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4727A8325F80CC9001E8CB4 /* ToDo-VIPER.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4727A8525F80CC9001E8CB4 /* ToDo-VIPER */ = {
+			isa = PBXGroup;
+			children = (
+				B4727A8625F80CC9001E8CB4 /* AppDelegate.swift */,
+				B4727A8825F80CC9001E8CB4 /* SceneDelegate.swift */,
+				B4727AAC25F828D0001E8CB4 /* Entity.swift */,
+				B4727AA825F81318001E8CB4 /* Interactor.swift */,
+				B4727AA525F81303001E8CB4 /* Presenter.swift */,
+				B4727AB125F8294A001E8CB4 /* ToDoViewController.swift */,
+				B4727A8C25F80CC9001E8CB4 /* Main.storyboard */,
+				B4727A8F25F80CCC001E8CB4 /* Assets.xcassets */,
+				B4727A9125F80CCC001E8CB4 /* LaunchScreen.storyboard */,
+				B4727A9425F80CCC001E8CB4 /* Info.plist */,
+			);
+			path = "ToDo-VIPER";
+			sourceTree = "<group>";
+		};
+		F19AF6DFBE4B443ABB03E50D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F25BF634A10AE8B604B7D40A /* Pods-ToDo-VIPER.debug.xcconfig */,
+				85720AE0D44799313CB78FF1 /* Pods-ToDo-VIPER.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4727A8225F80CC9001E8CB4 /* ToDo-VIPER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4727A9725F80CCC001E8CB4 /* Build configuration list for PBXNativeTarget "ToDo-VIPER" */;
+			buildPhases = (
+				DFA93D456AF141317057859D /* [CP] Check Pods Manifest.lock */,
+				B4727A7F25F80CC9001E8CB4 /* Sources */,
+				B4727A8025F80CC9001E8CB4 /* Frameworks */,
+				B4727A8125F80CC9001E8CB4 /* Resources */,
+				0D06E04522D57229C47C08B6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ToDo-VIPER";
+			productName = "ToDo-VIPER";
+			productReference = B4727A8325F80CC9001E8CB4 /* ToDo-VIPER.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4727A7B25F80CC9001E8CB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B4727A8225F80CC9001E8CB4 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = B4727A7E25F80CC9001E8CB4 /* Build configuration list for PBXProject "ToDo-VIPER" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4727A7A25F80CC9001E8CB4;
+			productRefGroup = B4727A8425F80CC9001E8CB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4727A8225F80CC9001E8CB4 /* ToDo-VIPER */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4727A8125F80CC9001E8CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4727A9325F80CCC001E8CB4 /* LaunchScreen.storyboard in Resources */,
+				B4727A9025F80CCC001E8CB4 /* Assets.xcassets in Resources */,
+				B4727A8E25F80CC9001E8CB4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D06E04522D57229C47C08B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDo-VIPER/Pods-ToDo-VIPER-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDo-VIPER/Pods-ToDo-VIPER-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToDo-VIPER/Pods-ToDo-VIPER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFA93D456AF141317057859D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToDo-VIPER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4727A7F25F80CC9001E8CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4727A8725F80CC9001E8CB4 /* AppDelegate.swift in Sources */,
+				B4727AAD25F828D0001E8CB4 /* Entity.swift in Sources */,
+				B4727AA925F81318001E8CB4 /* Interactor.swift in Sources */,
+				B4727AA625F81303001E8CB4 /* Presenter.swift in Sources */,
+				B4727AB225F8294A001E8CB4 /* ToDoViewController.swift in Sources */,
+				B4727A8925F80CC9001E8CB4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B4727A8C25F80CC9001E8CB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4727A8D25F80CC9001E8CB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4727A9125F80CCC001E8CB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4727A9225F80CCC001E8CB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4727A9525F80CCC001E8CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4727A9625F80CCC001E8CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4727A9825F80CCC001E8CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F25BF634A10AE8B604B7D40A /* Pods-ToDo-VIPER.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUU3JKD2WU;
+				INFOPLIST_FILE = "ToDo-VIPER/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nechepurenko.99.ToDo-VIPER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4727A9925F80CCC001E8CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85720AE0D44799313CB78FF1 /* Pods-ToDo-VIPER.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUU3JKD2WU;
+				INFOPLIST_FILE = "ToDo-VIPER/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.nechepurenko.99.ToDo-VIPER";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4727A7E25F80CC9001E8CB4 /* Build configuration list for PBXProject "ToDo-VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4727A9525F80CCC001E8CB4 /* Debug */,
+				B4727A9625F80CCC001E8CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4727A9725F80CCC001E8CB4 /* Build configuration list for PBXNativeTarget "ToDo-VIPER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4727A9825F80CCC001E8CB4 /* Debug */,
+				B4727A9925F80CCC001E8CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4727A7B25F80CC9001E8CB4 /* Project object */;
+}
